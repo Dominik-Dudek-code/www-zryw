@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Calluna';
+  src: url('/fonts/Calluna-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'New Order';
+  src: url('/fonts/New-Order-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  body {
+    color: #212121;
+  }
+}
+
+
+@theme {
+  --breakpoint-xs: 440px;
+  --font-new-order: "New Order", sans;
+  --font-calluna: "Calluna", sans-serif;
+  --color-brown: #32211C;
+  --color-background: #fffff6;
+  --color-primary: #3D4E54;
+  --color-accent: #CB3014;
+  --color-olive: #C4C495;
+  --color-green: #3D4E54;
+  --color-beige: #F6F6F1;
+  --color-beige-b: #C5C5C1;
+  --width-main: 1320px;
+  --width-mobile: 365px;
+  --height-footer: 569px;
+  --height-footer-mobile: 753px;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}

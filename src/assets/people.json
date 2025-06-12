@@ -1,0 +1,122 @@
+[
+    {
+        "img": "/faces/agnieszkag.png",
+        "name": "Agnieszka Gryz",
+        "title": "Prezeska",
+        "description": "Doradczyni kampanijna. Wcześniej agencja prasowa Reuters i ONZ w Ankarze. Absolwentka szwedzkiego Uniwersytetu w Lund.",
+        "linkedin": "https://www.linkedin.com",
+        "twitter": "https://x.com"
+    },
+    {
+        "img": "/faces/alicjak.png",
+        "name": "Alicja Kępka",
+        "title": "Wiceprezeska",
+        "description": "Doradczyni polityczna i ekspertka ds. międzynarodowych i migracji w MSWiA. Absolwentka Kolegium Europejskiego w Natolinie i Uniwersytetu Amsterdamskiego.",
+        "linkedin": "https://www.linkedin.com",
+        "twitter": "https://x.com"
+    },
+    {
+        "img": "/faces/juliaw.png",
+        "name": "Julia Wojciechowska",
+        "title": "Wiceprezeska",
+        "description": "Poprzednio The Royal Society of Arts w Londynie. Absolwentka polityki innowacji na Kolegium Uniwersyteckim w Londynie (UCL).",
+        "linkedin": "https://www.linkedin.com",
+        "twitter": "https://x.com"
+    },
+    {
+        "img": "/faces/alexanders.png",
+        "name": "Alexander Sikorski",
+        "title": "Fundator",
+        "description": "Międzynarodowy strateg polityczny. Poprzednio kierował biurem CEE Human Rights Foundation w Nowym Jorku. Absolwent Yale i Kolegium Europejskiego w Natolinie.",
+        "linkedin": "https://www.linkedin.com",
+        "twitter": "https://x.com"
+    },
+    {
+        "img": "/faces/przemyslawm.png",
+        "name": "Przemysław Macholak",
+        "title": "Przewodniczący Rady Fundacji",
+        "description": "Ekonomista zajmujący się strategią organizacji i edukacją. Absolwent University of Pennsylvania i College of Europe.",
+        "linkedin": "https://www.linkedin.com",
+        "twitter": "https://x.com"
+    },
+    {
+        "img": "/faces/adrianm.png",
+        "name": "Adrian Matak",
+        "title": null,
+        "description": "Doradca polityczny. Filozofia w Cambridge. Bada wpływy AI na procesy polityczne. Doświadczenie w Kongresie USA. Absolwent LSE i Sciences Po.",
+        "linkedin": "https://www.linkedin.com",
+        "twitter": "https://x.com"
+    },
+    {
+        "img": "/faces/agnieszkah.png",
+        "name": "Agnieszka Homańska",
+        "title": null,
+        "description": "Szefowa gabinetu politycznego Ministra Sikorskiego. Członkini zarządu Stowarzyszenia Euroatlantyckiego. Badaczka na Uniwersytecie Warszawskim.",
+        "linkedin": "https://www.linkedin.com",
+        "twitter": "https://x.com"
+    },
+    {
+        "img": "/faces/alicjad.png",
+        "name": "Alicja Dryja",
+        "title": null,
+        "description": "Studentka MPA na UCL. Polityka klimatyczna i innowacji. Konsultantka dla UNDP. Wcześniej menedżerka sektora publicznego w Amazon Web Services (AWS).",
+        "linkedin": "https://www.linkedin.com",
+        "twitter": "https://x.com"
+    },
+    {
+        "img": "/faces/barbaraw.png",
+        "name": "Barbara Węgrzyn",
+        "title": null,
+        "description": "Zawodowo związana z sektorem publicznym. Absolwentka Uniwersytetu w Cambridge oraz Uniwersytetu Oksfordzkiego.",
+        "linkedin": "https://www.linkedin.com",
+        "twitter": "https://x.com"
+    },
+    {
+        "img": "/faces/jakubk.png",
+        "name": "Jakub Krzysiak",
+        "title": null,
+        "description": "Założyciel Fundacji 13. Klasa i startupu EdTech Chatheroes. Absolwent London School of Economics (LSE).",
+        "linkedin": "https://www.linkedin.com",
+        "twitter": "https://x.com"
+    },
+    {
+        "img": "/faces/jozefb.png",
+        "name": "Józef Bartosz",
+        "title": null,
+        "description": "Ekspert ds. komunikacji w Kancelarii Prezesa Rady Ministrów. Poprzednio Akademia Wiedzy Obywatelskiej i Polityka Insight. Absolwent Londyńskiej Szkoły Ekonomii (LSE).",
+        "linkedin": "https://www.linkedin.com",
+        "twitter": "https://x.com"
+    },
+    {
+        "img": "/faces/krzysztofs.png",
+        "name": "Krzysztof Szczepaniakk",
+        "title": null,
+        "description": "Inżynier i manager. Odpowiadał za wprowadzanie Amazon oraz Amazon Prime na rynek polski. Absolwent Imperial College London.",
+        "linkedin": "https://www.linkedin.com",
+        "twitter": "https://x.com"
+    },
+    {
+        "img": "/faces/ninab.png",
+        "name": "Nina Butruk",
+        "title": null,
+        "description": "Analityczka. Absolwentka Londyńskiej Szkoły Ekonomii (LSE) i studentka analityki biznesowej na Imperial College London.",
+        "linkedin": "https://www.linkedin.com",
+        "twitter": "https://x.com"
+    },
+    {
+        "img": "/faces/pawelm.png",
+        "name": "Paweł Mastalerz",
+        "title": null,
+        "description": "Doradca w MSZ. Absolwent Uniwersytetu Warszawskiego i SGH. Stypendysta wymian z Uniwersytetem Azorów i Kyungpook National University w Korei Południowej.",
+        "linkedin": "https://www.linkedin.com",
+        "twitter": "https://x.com"
+    },
+    {
+        "img": "/faces/natalian.png",
+        "name": "Natalia Neuber",
+        "title": null,
+        "description": "Prawniczka. Doświadczenie w sektorze publicznym i prywatnym. Uprzednio OECD oraz think-thank DICOPO Digital Constitutionalism and Policy. Absolwentka LSE i Bocconi.",
+        "linkedin": "https://www.linkedin.com",
+        "twitter": "https://x.com"
+    }
+]

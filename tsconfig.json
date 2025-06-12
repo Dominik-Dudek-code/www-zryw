@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es2016",
+    "module": "commonjs",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true, 
+    "skipLibCheck": true,
+    "allowJs":true,
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
