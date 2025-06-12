@@ -49,3 +49,47 @@
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+#custom-substack-embed form {
+  margin-top: 40px;
+  gap: 0.75rem;
+  display: flex;
+  outline: none;
+  border: none;
+  height: 48px;
+  font-family: Calluna;
+}
+
+#custom-substack-embed input {
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  width: 184px;
+  background-color: transparent;
+  border: 1px solid #CCC;
+  color: var(--color-brown);
+  transition: border 0.3s;
+
+  &::placeholder {
+    color: var(--color-brown);
+  }
+
+  &:focus {
+    border: 1px solid var(--color-brown);
+  }
+}
+
+#custom-substack-embed button {
+  border-radius: 100px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: var(--color-green);
+  transition: font-size 0.3s;
+  color: white;
+
+  &:hover {
+    font-size: 1.05rem;
+  }
+}

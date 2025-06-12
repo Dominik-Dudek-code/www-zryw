@@ -31,7 +31,7 @@ const Modal: React.FC<props> = ({ handleNavClick, close }) => {
       transition={{ type: "tween", duration: 0.3 }}
       className="bg-green fixed top-0 bottom-0 left-0 right-0 flex flex-col z-50"
     >
-      <Container className="flex flex-col flex-grow">
+      <Container className="flex flex-col flex-grow bg-green">
         <nav className="w-full h-16 xs:h-24 flex justify-between items-center">
           <NavLink to="/" aria-label="Go to home" onClick={handleNavClick("/")}>
             <img
@@ -56,15 +56,9 @@ const Modal: React.FC<props> = ({ handleNavClick, close }) => {
           >
             <p className="text-white font-calluna text-3xl">O nas</p>
           </NavLink>
-          <NavLink
-            to="/aplikuj"
-            aria-label="Go to home"
-            onClick={handleNavClick("/aplikuj")}
-          >
-            <Button className="bg-accent" link="/aplikuj">
+            <Button className="bg-accent w-[96px] h-[45px]" link="/aplikuj" aria-label="Go to home" onClick={handleNavClick("/aplikuj")}>
               Aplikuj
             </Button>
-          </NavLink>
         </div>
         <img src={logoOutline} alt="" className="mt-auto pb-4" />
       </Container>

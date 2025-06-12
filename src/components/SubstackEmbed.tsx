@@ -5,8 +5,8 @@ const SubstackEmbed = () => {
     // Dodaj konfigurację widgetu do obiektu window
     window.CustomSubstackWidget = {
       substackUrl: "fundacjazryw.substack.com",
-      placeholder: "example@gmail.com",
-      buttonText: "Subscribe",
+      placeholder: "Twoj email",
+      buttonText: "Zapisz się",
       theme: "custom",
       colors: {
         primary: "#F6F5F1",

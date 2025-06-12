@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import logo from "/logo/logo.png";
 import burger from "/burger/burger.png";
 import Container from './Container';
-import Modal from './Modal';
+import Menu from './Menu';
 import { AnimatePresence } from 'framer-motion';
 
 const Navigation: React.FC = () => {
@@ -50,18 +50,25 @@ const Navigation: React.FC = () => {
     >
       <Container>
         <nav className="w-full h-16 xs:h-24 flex justify-between items-center">
-          <NavLink to='/' aria-label="Go to home">
+          <NavLink to='/' aria-label="Go to home" className='hover:scale-110 transition-all duration-300'>
             <img src={logo} alt="zryw-logo" className='w-9'/>
           </NavLink>
           
           <div className='hidden xs:flex justify-between items-center'>
             <NavLink to='/o-nas' className='mr-12'>
-              <p className='font-calluna text-xl text-black'>O nas</p>
+              <p className='font-calluna text-xl text-black hover:text-[23px] transition-all duration-300'>O nas</p>
             </NavLink>
 
-            <NavLink to='/aplikuj' className='w-24 h-11 bg-green rounded-full flex justify-center items-center'>
-              <p className='font-calluna text-xl text-white'>Aplikuj</p>
+            <NavLink
+              to="/aplikuj"
+              className="w-24 h-11 bg-green rounded-full flex justify-center items-center 
+                        hover:bg-green/90 transition-colors duration-300"
+            >
+              <p className="font-calluna text-xl text-white hover:text-[23px] transition-all duration-300 block w-full h-full flex items-center justify-center">
+                Aplikuj
+              </p>
             </NavLink>
+
           </div>
 
           <div className='xs:hidden'>
@@ -77,7 +84,7 @@ const Navigation: React.FC = () => {
 
         <AnimatePresence>
           {isOpen && (
-            <Modal
+            <Menu
               close={closeModal}
               handleNavClick={handleNavClick}
             />

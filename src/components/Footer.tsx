@@ -36,14 +36,14 @@ const Footer: React.FC = () => {
             <section className="w-full flex xs:flex-row flex-col justify-between mt-7 xs:mt-12">
             <div className="w-auto">
                 <div className="flex justify-between flex-wrap xs:grid xs:grid-cols-[repeat(auto-fit,_minmax(120px,_1fr))] gap-x-8 gap-y-4 xs:gap-x-40 xs:gap-y-12">
-                    <NavLink to='/' onClick={handleNavClick('/')}>
-                        <p className='font-calluna text-xl text-white whitespace-nowrap'>Strona główna</p>
+                    <NavLink to='/' onClick={handleNavClick('/')} className='pointer-events-none'>
+                        <p className='font-calluna text-xl text-white whitespace-nowrap transition-transform duration-300 hover:scale-110 w-fit pointer-events-auto cursor-pointer'><p>Strona główna</p></p>
                     </NavLink>
-                    <NavLink to='/o-nas' onClick={handleNavClick('/o-nas')}>
-                        <p className='font-calluna text-xl text-white whitespace-nowrap'>O nas</p>
+                    <NavLink to='/o-nas' onClick={handleNavClick('/o-nas')} className='pointer-events-none'>
+                        <p className='font-calluna text-xl text-white whitespace-nowrap transition-transform duration-300 hover:scale-110 w-fit pointer-events-auto cursor-pointer'>O nas</p>
                     </NavLink>
-                    <NavLink to='/aplikuj' onClick={handleNavClick('/aplikuj')}>
-                        <p className='font-calluna text-xl text-white whitespace-nowrap'>Aplikuj</p>
+                    <NavLink to='/aplikuj' onClick={handleNavClick('/aplikuj')} className='pointer-events-none'>
+                        <p className='font-calluna text-xl text-white whitespace-nowrap transition-transform duration-300 hover:scale-110 w-fit pointer-events-auto cursor-pointer'>Aplikuj</p>
                     </NavLink>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-40 gap-y-6 xs:gap-y-12 mt-6 xs:mt-12 xs:pb-10">

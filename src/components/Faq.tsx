@@ -59,7 +59,7 @@ const Faq: React.FC = () => {
           <p className="block xs:hidden">Napisz do Nas, z chęcią odpowiemy</p>
         </div>
 
-        <Button className="block xs:hidden mt-6 bg-green w-[103px] h-[48px]" link="/aplikuj">Kontakt</Button>
+        <Button className="block xs:hidden mt-6 bg-green w-[103px] h-[48px]" link="/">Kontakt</Button>
       </section>
     </Container>
   );

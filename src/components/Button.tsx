@@ -7,6 +7,8 @@ interface ButtonProps {
   style?: React.CSSProperties;
   link: string;
   blank?: boolean;
+  onClick?: React.MouseEventHandler<HTMLAnchorElement>;
+  'aria-label'?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({ children, className = "", style, link, blank }) => (

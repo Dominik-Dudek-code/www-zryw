@@ -16,22 +16,6 @@ const Newsletter: React.FC = () => {
               najnowszych projektach i zaproszenia na zamknięte wydarzenia?
             </p>
             <SubstackEmbed />
-            {/* <form onSubmit={(e) => e.preventDefault()} className="flex flex-col xs:flex-row gap-6 justify-between mt-10 h-[120px] xs:h-[48px]">
-                            <input
-                                type="email"
-                                placeholder="Twój email"
-                                className="w-full max-w-[384px] h-[50%] xs:h-auto px-3 py-3 border border-green rounded-lg font-calluna text-sm outline-none"
-                                required
-                            />
-                            <Button className="w-[113px] h-[50%] text-base xs:h-auto bg-green text-nowrap">Zapisz się</Button>
-                        </form> */}
-            {/* <div className="overflow-hidden w-full flex">
-              <iframe
-                src="https://fundacjazryw.substack.com/embed"
-                className="w-full h-[110px]"
-              ></iframe>
-            </div> */}
-
             <p className="font-calluna text-xs mt-4">
               Klikając „Zapisz się”, potwierdzasz, że zgadzasz się z{" "}
               <span className="underline">naszym Regulaminem.</span>
