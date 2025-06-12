@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
             <div className="w-auto">
                 <div className="flex justify-between flex-wrap xs:grid xs:grid-cols-[repeat(auto-fit,_minmax(120px,_1fr))] gap-x-8 gap-y-4 xs:gap-x-40 xs:gap-y-12">
                     <NavLink to='/' onClick={handleNavClick('/')} className='pointer-events-none'>
-                        <p className='font-calluna text-xl text-white whitespace-nowrap transition-transform duration-300 hover:scale-110 w-fit pointer-events-auto cursor-pointer'><p>Strona główna</p></p>
+                        <p className='font-calluna text-xl text-white whitespace-nowrap transition-transform duration-300 hover:scale-110 w-fit pointer-events-auto cursor-pointer'>Strona główna</p>
                     </NavLink>
                     <NavLink to='/o-nas' onClick={handleNavClick('/o-nas')} className='pointer-events-none'>
                         <p className='font-calluna text-xl text-white whitespace-nowrap transition-transform duration-300 hover:scale-110 w-fit pointer-events-auto cursor-pointer'>O nas</p>
